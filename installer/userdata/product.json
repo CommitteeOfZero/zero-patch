@@ -1,0 +1,51 @@
+{
+    "windowTitle": "STEINS;GATE 0 Improvement Patch (Steam) Installer",
+    "uninstallerWindowTitle": "STEINS;GATE 0 Improvement Patch (Steam) Uninstaller",
+    "gameTitle": "STEINS;GATE 0",
+    "inputScriptVersionTitle": "English Steam",
+    "paths": {
+        "GAME_STEAM_NAME": "STEINS;GATE 0",
+		"GAME_EXE": "%GAME_PATH%/Game.exe",
+        "PATCH_CONTENT": "DIST",
+        "LAUNCHERENG_PATH": "%GAME_PATH%/LauncherC0.exe",
+        "LANGUAGEBARRIER_LOG_PATH": "%GAME_PATH%/languagebarrier/log.txt",
+        "LAUNCHER_EXE": "LauncherC0.exe"
+    },
+    "platforms": {
+        "windows": {
+            "conflictingProcesses": [
+                "Game.exe",
+                "noidget.exe",
+                "launcher.exe",
+                "LauncherC0.exe",
+                "SG0Patch-Installer.exe"
+            ],
+            "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\SteinsGate0SteamPatch",
+            "uninstallProductDisplayName": "STEINS;GATE 0 Improvement Patch (Steam)",
+            "uninstallProductDisplayVersion": "2.2.0",
+            "uninstallProductVersionMajor": 2,
+            "uninstallProductVersionMinor": 1,
+            "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
+            "paths": {
+                "COZ_CONFIG_LOCATION": "%LOCALAPPDATA%/Committee of Zero",
+                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/SG0Steam",
+                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/mages_steam",
+                "GAME_CONFIG_LOCATION": "%MAGES_CONFIG_LOCATION%/STEINS GATE 0/eng",
+                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/STEINS;GATE 0 Improvement Patch (Steam).lnk",
+                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/STEINS;GATE 0 Improvement Patch (Steam).lnk"
+            }
+        }
+    },
+    "playShortcut": {
+        "displayName": "STEINS;GATE 0 Improvement Patch (Steam)",
+        "version": "2.2.0",
+        "targetPath": "%LAUNCHERENG_PATH%",
+        "workingDir": "%GAME_PATH%",
+        "tooltip": "Play STEINS;GATE 0 Improvement Patch (Steam)",
+        "xdgCategories": "Game"
+    },
+    "origScriptArchivePath": "%GAME_PATH%/USRDIR/script.mpk",
+    "origScriptArchiveHash": "35c3e63351311f9eb9c767091ff3c918",
+    "origGameExeHash": "a8486dd247c72fcb09600da30aa4a6db",
+    "patchGameExeHash": "5950b51a707cfc73c98d5339fb0b4a78"
+}

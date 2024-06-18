@@ -1,0 +1,74 @@
+# id,filename_on_disk,filename_in_archive
+# font replacement
+0,temp\FONT_A.dds,FONT_A.dds
+# translated system textures
+1,zero-edited-images\system\CLEARLIST.dds,CLEARLIST.dds
+2,zero-edited-images\system\CONFIG.dds,CONFIG.dds
+3,zero-edited-images\system\DATA01.dds,DATA01.dds
+4,zero-edited-images\system\EXMENU.dds,EXMENU.dds
+5,zero-edited-images\system\EXMENU2.dds,EXMENU2.dds
+6,zero-edited-images\system\GSYSMES.dds,GSYSMES.dds
+7,zero-edited-images\system\MENUCHIP.dds,MENUCHIP.dds
+8,zero-edited-images\system\PHONE_B.dds,PHONE_B.dds
+9,zero-edited-images\system\PHONE_RINE.dds,PHONE_RINE.dds
+10,zero-edited-images\system\SYSM_SAVEMENU.dds,SYSM_SAVEMENU.dds
+11,zero-edited-images\system\SYSM_TIPS.dds,SYSM_TIPS.dds
+12,zero-edited-images\system\TIPSCHIPS.dds,TIPSCHIPS.dds
+# manual.mpk
+13,zero-edited-images\manual\help00.dds,help00.dds
+14,zero-edited-images\manual\help01.dds,help01.dds
+# translated CGs
+15,zero-edited-images\bg\BG12A.png,BG12A.png
+16,zero-edited-images\bg\BG24A1.png,BG24A1.png
+17,zero-edited-images\bg\BG24A3.png,BG24A3.png
+18,zero-edited-images\bg\BG24A4.png,BG24A4.png
+19,zero-edited-images\bg\BG24A5.png,BG24A5.png
+20,zero-edited-images\bg\BG24E1.png,BG24E1.png
+21,zero-edited-images\bg\BG24E4.png,BG24E4.png
+22,zero-edited-images\bg\BG24N1.png,BG24N1.png
+23,zero-edited-images\bg\BG24N3.png,BG24N3.png
+24,zero-edited-images\bg\BG24N4.png,BG24N4.png
+25,zero-edited-images\bg\BG83A3.png,BG83A3.png
+26,zero-edited-images\bg\BG96N1.png,BG96N1.png
+27,zero-edited-images\bg\BG96N2.png,BG96N2.png
+28,zero-edited-images\bg\BG96N3.png,BG96N3.png
+29,zero-edited-images\bg\IBG094.png,IBG094.png
+30,zero-edited-images\bg\IBG099.png,IBG099.png
+31,zero-edited-images\bg\SG0_IBG001A.png,SG0_IBG001A.png
+32,zero-edited-images\bg\SG0_IBG001C.png,SG0_IBG001C.png
+33,zero-edited-images\bg\SG0_IBG001D.png,SG0_IBG001D.png
+34,zero-edited-images\bg\SG0_IBG001E.png,SG0_IBG001E.png
+35,zero-edited-images\bg\SG0_IBG001F.png,SG0_IBG001F.png
+36,zero-edited-images\bg\SG0_IBG004A.png,SG0_IBG004A.png
+37,zero-edited-images\bg\SG0_IBG005A.png,SG0_IBG005A.png
+38,zero-edited-images\bg\SG0_IBG005C.png,SG0_IBG005C.png
+39,zero-edited-images\bg\SG0_IBG010A.png,SG0_IBG010A.png
+40,zero-edited-images\bg\SG0_IBG010B.png,SG0_IBG010B.png
+41,zero-edited-images\bg\SG0_IBG015A.png,SG0_IBG015A.png
+42,zero-edited-images\bg\SG0_IBG019A.png,SG0_IBG019A.png
+43,zero-edited-images\bg\SG0_IBG031A.png,SG0_IBG031A.png
+44,zero-edited-images\bg\SG0_IBG031B.png,SG0_IBG031B.png
+45,zero-edited-images\bg\SG0_IBG031C.png,SG0_IBG031C.png
+46,zero-edited-images\bg\SG0_IBG031D.png,SG0_IBG031D.png
+47,zero-edited-images\bg\SG0_IBG031E.png,SG0_IBG031E.png
+48,zero-edited-images\bg\SG0_IBG031F.png,SG0_IBG031F.png
+49,zero-edited-images\bg\SG0_IBG031G.png,SG0_IBG031G.png
+50,zero-edited-images\bg\SG0_IBG034A.png,SG0_IBG034A.png
+51,zero-edited-images\bg\SG0_IBG034B.png,SG0_IBG034B.png
+52,zero-edited-images\bg\SG0_IBG034C.png,SG0_IBG034C.png
+53,zero-edited-images\bg\SG0_IBG035A.png,SG0_IBG035A.png
+54,zero-edited-images\bg\SG0_IBG044A.png,SG0_IBG044A.png
+55,zero-edited-images\bg\SG0_IBG048A.png,SG0_IBG048A.png
+56,zero-edited-images\bg\SG0_IBG049A.png,SG0_IBG049A.png
+57,zero-edited-images\bg\SG0_IBG049B.png,SG0_IBG049B.png
+58,zero-edited-images\bg\SG0_IBG052A.png,SG0_IBG052A.png
+59,zero-edited-images\bg\SG0_IBG053A.png,SG0_IBG053A.png
+60,zero-edited-images\bg\SG0_IBG055A.png,SG0_IBG055A.png
+61,zero-edited-images\bg\SG0_IBG056B.png,SG0_IBG056B.png
+62,zero-edited-images\bg\SG0_IBG056C.png,SG0_IBG056C.png
+63,zero-edited-images\bg\SG0_IBG058A.png,SG0_IBG058A.png
+64,zero-edited-images\bg\z_warning.png,z_warning.png
+# font B
+65,temp\FONT_B.dds,FONT_B.dds
+# hq audio
+66,content\languagebarrier\audio\end01_hq.ogg,end01_hq.ogg

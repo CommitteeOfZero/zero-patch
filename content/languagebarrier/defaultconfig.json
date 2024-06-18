@@ -1,0 +1,10 @@
+{
+  "__schema_version": 4,
+  "showAllSettings": false,
+  "controllerEnabled": true,
+  "improveDialogueOutlines": true,
+  "hqFmvAudio": true,
+  "rineBlackNames": false,
+  "karaokeSubs": "all",
+  "selectedController": ""
+}

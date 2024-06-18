@@ -1,0 +1,217 @@
+{
+  "__schema_version": 2,
+  "appdatadir": "Committee of Zero\\SG0Steam",
+  "patchName": "[CoZ] STEINS;GATE 0 Steam Patch (2.2.0)",
+  "patchVersion": "2.2.0",
+  "base": {
+    "hookText": true,
+    "improveDialogueOutlines": false,
+    "redoDialogueWordwrap": true,
+    "textureFiltering": true,
+    "exitBlackScreenFix": false,
+    "dialogueRedesignYOffsetShift": 5,
+    "dialogueRedesignLineHeightShift": 0,
+    "rineBlackNames": false,
+    "disableUnconfiguredControllers": false,
+    "shouldHideAutoSkip": false,
+    "usePoolAllocators": false,
+    "hijackLauncher": "LauncherC0.exe",
+    "fmv": {
+      "fonts": [
+        "ClementePDai-Regular.ttf",
+        "kochi-gothic-subst.ttf",
+        "Roboto-Regular.ttf",
+        "Cicle_Gordita.ttf",
+        "SortsMillGoudy-Regular.ttf",
+        "AozoraMinchoRegular.ttf",
+        "ahellya.ttf",
+        "CandelaBold.otf"
+      ],
+      "subs": {
+        "imv004.bk2": "imv004.bk2.ass"
+      },
+      "videoRedirection": {
+        "end02.bk2": "END02.bik",
+        "intro.bk2": "intro.bk2",
+        "imv004.bk2": "IMV004.bk2",
+        "tit_000.bk2": "TIT_000.bk2",
+        "tit_001.bk2": "TIT_001.bk2",
+        "tit_a01.bk2": "TIT_A01.bk2",
+        "tit_a02.bk2": "TIT_A02.bk2",
+        "tit_a03.bk2": "TIT_A03.bk2",
+        "tit_a04.bk2": "TIT_A04.bk2",
+        "tit_b01.bk2": "TIT_B01.bk2",
+        "tit_b02.bk2": "TIT_B02.bk2",
+        "tit_b03a.bk2": "TIT_B03A.bk2",
+        "tit_b03b.bk2": "TIT_B03B.bk2",
+        "tit_b04.bk2": "TIT_B04.bk2",
+        "tit_k01.bk2": "TIT_K01.bk2",
+        "tit_m01.bk2": "TIT_M01.bk2",
+        "tit_t01.bk2": "TIT_T01.bk2"
+      }
+    },
+    "physicalFileRedirection": {
+      "script.mpk": "enscript.mpk"
+    },
+    "singleTextLineFixes": [
+      {"sigName":"tipHeaderRetIndexShadow", "dx":-5, "dy":4},
+      {"sigName":"tipHeaderRetIndexMain", "dx":-5, "dy":4},
+      {"sigName":"tipHeaderRetCategoryShadow", "dx":0, "dy":2},
+      {"sigName":"tipHeaderRetCategoryMain", "dx":0, "dy":2}
+    ],
+    "fileRedirection": {
+      "bg": {
+        "124": 15,
+        "221": 16,
+        "222": 17,
+        "223": 18,
+        "224": 19,
+        "227": 20,
+        "229": 21,
+        "231": 22,
+        "232": 23,
+        "233": 24,
+        "334": 25,
+        "358": 26,
+        "359": 27,
+        "360": 28,
+        "399": 29,
+        "400": 30,
+        "577": 31,
+        "579": 32,
+        "580": 33,
+        "581": 34,
+        "582": 35,
+        "585": 36,
+        "586": 37,
+        "588": 38,
+        "606": 39,
+        "607": 40,
+        "618": 41,
+        "626": 42,
+        "641": 43,
+        "642": 44,
+        "643": 45,
+        "644": 46,
+        "645": 47,
+        "646": 48,
+        "647": 49,
+        "650": 50,
+        "651": 51,
+        "652": 52,
+        "653": 53,
+        "663": 54,
+        "668": 55,
+        "669": 56,
+        "670": 57,
+        "673": 58,
+        "675": 59,
+        "677": 60,
+        "679": 61,
+        "680": 62,
+        "687": 63,
+        "707": 64
+      },
+      "bgm": {
+        "70": 66
+      },
+      "manual": {
+        "0": 13,
+        "1": 14
+      },
+      "system": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "7": 4,
+        "8": 5,
+        "9": 0,
+        "10": 65,
+        "11": 0,
+        "12": 65,
+        "13": 6,
+        "15": 7,
+        "18": 8,
+        "22": 10,
+        "23": 11,
+        "24": 12,
+        "30": 9
+      }
+    }
+  },
+  "settings": {
+    "rineBlackNames": {
+      "type": "bool",
+      "setters": {
+        "rineBlackNames": true
+      }
+    },
+    "improveDialogueOutlines": {
+      "type": "bool",
+      "setters": {
+        "improveDialogueOutlines": true,
+        "outlinePadding": 4,
+        "outlineCellWidth": 38,
+        "outlineCellHeight": 38,
+        "outlineTextureId": 350,
+        "fontOutlineAFileName": "font-outline_A.dds",
+        "fontOutlineBFileName": "font-outline_B.dds"
+      }
+    },
+    "hqFmvAudio": {
+      "type": "bool",
+      "setters": {
+        "fmv": {
+          "audioRedirection": {
+            "anisama.bk2": "anisama_hq.ogg",
+            "op.bk2": "op_hq.ogg",
+            "intro.bk2": "intro_hq.ogg",
+            "imv004.bk2": "imv004_hq.ogg",
+            "end01.bk2": "end01_hq.ogg"
+          }
+        }
+      }
+    },
+    "karaokeSubs": {
+      "type": "choice",
+      "choices": {
+        "all": {
+          "fmv": {
+            "subs": {
+              "op.bk2": "lq_op.bk2.ass",
+              "end01.bk2": "lq_end01.bk2.ass",
+              "end02.bk2": "lq_end02.bk2.ass",
+              "end03.bk2": "lq_end03.bk2.ass"
+            }
+          }
+        },
+        "karaonly": {
+          "fmv": {
+            "subs": {
+              "op.bk2": "op_karaonly.bk2.ass",
+              "end01.bk2": "end01_karaonly.bk2.ass",
+              "end02.bk2": "end02_karaonly.bk2.ass",
+              "end03.bk2": "end03_karaonly.bk2.ass"
+            }
+          }
+        },
+        "tlonly": {
+          "fmv": {
+            "subs": {
+              "op.bk2": "op_tlonly.bk2.ass",
+              "end01.bk2": "end01_tlonly.bk2.ass",
+              "end02.bk2": "end02_tlonly.bk2.ass",
+              "end03.bk2": "end03_tlonly.bk2.ass"
+            }
+          }
+        }
+      }
+    },
+    "hideAutoSkip": {
+      "type": "bool",
+      "setters": {
+        "shouldHideAutoSkip": true
+      }
+    }
+  }
+}
