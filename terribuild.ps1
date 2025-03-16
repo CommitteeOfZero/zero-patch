@@ -178,11 +178,11 @@ copy temp\patched_script_archive\*.scx temp\patched_edited_script_archive
 
 Write-Output "========================================================================"
 Write-Output "Packing enscript.mpk"
-py -2 .\mpkpack.py script_toc.csv DIST\languagebarrier\enscript.mpk
+python .\mpkpack.py script_toc.csv DIST\languagebarrier\enscript.mpk
 Write-Output "========================================================================"
 
 PrintSection "Packing c0data.mpk"
-py -2 .\mpkpack.py c0data_toc.csv DIST\languagebarrier\c0data.mpk
+python .\mpkpack.py c0data_toc.csv DIST\languagebarrier\c0data.mpk
 
 # LanguageBarrier currently needs this file to be present even if no string redirections are configured
 echo $null > .\DIST\languagebarrier\stringReplacementTable.bin

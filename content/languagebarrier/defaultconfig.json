@@ -3,6 +3,7 @@
   "showAllSettings": false,
   "controllerEnabled": true,
   "improveDialogueOutlines": true,
+  "hideAutoSkip": false,
   "hqFmvAudio": true,
   "rineBlackNames": false,
   "karaokeSubs": "all",
